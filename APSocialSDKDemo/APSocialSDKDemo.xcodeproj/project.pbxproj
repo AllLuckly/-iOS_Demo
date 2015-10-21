@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29FC52C71B3A8D26007DEB40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52C61B3A8D26007DEB40 /* main.m */; };
+		29FC52CA1B3A8D26007DEB40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52C91B3A8D26007DEB40 /* AppDelegate.m */; };
+		29FC52D21B3A8D26007DEB40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC52D11B3A8D26007DEB40 /* Images.xcassets */; };
+		29FC52EC1B3A8DC4007DEB40 /* APRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52EB1B3A8DC4007DEB40 /* APRootViewController.m */; };
+		29FC52F41B3A8E95007DEB40 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 29FC52F21B3A8E95007DEB40 /* README.md */; };
+		AEE606121BA7CFD600F82F90 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29FC52C11B3A8D26007DEB40 /* APSocialSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSocialSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FC52C51B3A8D26007DEB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FC52C61B3A8D26007DEB40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29FC52C81B3A8D26007DEB40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29FC52C91B3A8D26007DEB40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29FC52D11B3A8D26007DEB40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29FC52EA1B3A8DC4007DEB40 /* APRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRootViewController.h; sourceTree = "<group>"; };
+		29FC52EB1B3A8DC4007DEB40 /* APRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRootViewController.m; sourceTree = "<group>"; };
+		29FC52EF1B3A8E95007DEB40 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
+		29FC52F01B3A8E95007DEB40 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
+		29FC52F21B3A8E95007DEB40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FC52BE1B3A8D26007DEB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE606121BA7CFD600F82F90 /* libAPOpenSdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29FC52B81B3A8D26007DEB40 = {
+			isa = PBXGroup;
+			children = (
+				29FC52C31B3A8D26007DEB40 /* APSocialSDKDemo */,
+				29FC52C21B3A8D26007DEB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FC52C21B3A8D26007DEB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FC52C11B3A8D26007DEB40 /* APSocialSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FC52C31B3A8D26007DEB40 /* APSocialSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29FC52ED1B3A8E95007DEB40 /* Framework */,
+				29FC52C81B3A8D26007DEB40 /* AppDelegate.h */,
+				29FC52C91B3A8D26007DEB40 /* AppDelegate.m */,
+				29FC52EA1B3A8DC4007DEB40 /* APRootViewController.h */,
+				29FC52EB1B3A8DC4007DEB40 /* APRootViewController.m */,
+				29FC52D11B3A8D26007DEB40 /* Images.xcassets */,
+				29FC52C41B3A8D26007DEB40 /* Supporting Files */,
+			);
+			path = APSocialSDKDemo;
+			sourceTree = "<group>";
+		};
+		29FC52C41B3A8D26007DEB40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29FC52C51B3A8D26007DEB40 /* Info.plist */,
+				29FC52C61B3A8D26007DEB40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FC52ED1B3A8E95007DEB40 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				29FC52EE1B3A8E95007DEB40 /* SocialSDK */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		29FC52EE1B3A8E95007DEB40 /* SocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				29FC52EF1B3A8E95007DEB40 /* APOpenAPI.h */,
+				29FC52F01B3A8E95007DEB40 /* APOpenAPIObject.h */,
+				AEE606111BA7CFD600F82F90 /* libAPOpenSdk.a */,
+				29FC52F21B3A8E95007DEB40 /* README.md */,
+			);
+			path = SocialSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FC52C01B3A8D26007DEB40 /* APSocialSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FC52E41B3A8D26007DEB40 /* Build configuration list for PBXNativeTarget "APSocialSDKDemo" */;
+			buildPhases = (
+				29FC52BD1B3A8D26007DEB40 /* Sources */,
+				29FC52BE1B3A8D26007DEB40 /* Frameworks */,
+				29FC52BF1B3A8D26007DEB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APSocialSDKDemo;
+			productName = APSocialSDKDemo;
+			productReference = 29FC52C11B3A8D26007DEB40 /* APSocialSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FC52B91B3A8D26007DEB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = alipay;
+				TargetAttributes = {
+					29FC52C01B3A8D26007DEB40 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = GG27W5RMQD;
+					};
+				};
+			};
+			buildConfigurationList = 29FC52BC1B3A8D26007DEB40 /* Build configuration list for PBXProject "APSocialSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FC52B81B3A8D26007DEB40;
+			productRefGroup = 29FC52C21B3A8D26007DEB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FC52C01B3A8D26007DEB40 /* APSocialSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FC52BF1B3A8D26007DEB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC52D21B3A8D26007DEB40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FC52BD1B3A8D26007DEB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FC52EC1B3A8DC4007DEB40 /* APRootViewController.m in Sources */,
+				29FC52CA1B3A8D26007DEB40 /* AppDelegate.m in Sources */,
+				29FC52F41B3A8E95007DEB40 /* README.md in Sources */,
+				29FC52C71B3A8D26007DEB40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29FC52E21B3A8D26007DEB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29FC52E31B3A8D26007DEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29FC52E51B3A8D26007DEB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APSocialSDKDemo/Framework/SocialSDK",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29FC52E61B3A8D26007DEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = APSocialSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APSocialSDKDemo/Framework/SocialSDK",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FC52BC1B3A8D26007DEB40 /* Build configuration list for PBXProject "APSocialSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC52E21B3A8D26007DEB40 /* Debug */,
+				29FC52E31B3A8D26007DEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FC52E41B3A8D26007DEB40 /* Build configuration list for PBXNativeTarget "APSocialSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FC52E51B3A8D26007DEB40 /* Debug */,
+				29FC52E61B3A8D26007DEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FC52B91B3A8D26007DEB40 /* Project object */;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64938119-FEEE-4160-ACF9-7815E10DD53F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>APSocialSDKDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53dde0f6-b4d7-439f-9204-813cd56d126d++6564</key>
+		<string>http://yandong.myd@svnhz.alipay.net/svn/ios-phone-social/branches/910_cp_record_client_release_313927_20150818_ios-phone-social/CommonDemo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>APOpenSdkDemo/APSocialSDKDemo/APSocialSDKDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53dde0f6-b4d7-439f-9204-813cd56d126d++6564</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>53dde0f6-b4d7-439f-9204-813cd56d126d++6564</key>
+		<string>http://yandong.myd@svnhz.alipay.net/svn/ios-phone-social</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://yandong.myd@svnhz.alipay.net/svn/ios-phone-social/branches/910_cp_record_client_release_313927_20150818_ios-phone-social/CommonDemo/APOpenSdkDemo/APSocialSDKDemo/APSocialSDKDemo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53dde0f6-b4d7-439f-9204-813cd56d126d++6564</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53dde0f6-b4d7-439f-9204-813cd56d126d++6564</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
